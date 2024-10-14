@@ -1,6 +1,6 @@
 # Login and Signup Page
 
-[Live](https://reetha47.github.io/LoginSignUpPage/)
+[Live](https://reetha47.github.io/LoginSignupPage/)
  ## Login
  ![ss1](./login.png)
 
