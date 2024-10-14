@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class=" flex h-screen  items-center">
+        <div id="container" class="max-w-md gap-6 mx-auto bg-transparent-900 shadow-lg rounded-lg p-6">
+            <h1 id="heading" class="font-bold text-2xl justify-center flex">
+                SignUp Form
+            </h1>
+            <br><br> 
+           
+                <form id="fields" action="./sign.php" method="POST">
+                    <div >
+                        <input class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="text" name="name"
+                            placeholder="Full Name" required><br><br>
+                    </div>
+                    <div>
+                        <input id="email" class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="email" name="email"
+                            placeholder="E-mail" required><br><br>
+                    </div>
+                    <input class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="tel" name="phonenumber"
+                        placeholder="Phone Number" required><br><br>
+                    <input class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="text" name="address"
+                        placeholder="Address"><br><br>
+                    <input id="password" class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="password" name="password"
+                        placeholder="Password" required><br><br>
+                    <input id="re_password" class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" type="password" name="re_password"
+                        placeholder="Re-Enter Password" required><br><br>
+                    <button id="btn" class="w-full bg-blue-500 font-bold rounded-md px-12 py-2 border border-blue hover:bg-blue-600"><a href="./login.html"></a>Submit</button>
+
+                    <br>
+                    <br>
+                    <p id="log" class="justify-center flex ">Already Login? </p>
+                    <a id="login" class="justify-center flex font-bold " href="./login.html">Login</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./sign.js"></script>
+</body>
+</html>

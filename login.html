@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+ 
+
+    
+    <div class="flex flex-col items-center justify-center h-screen gap-6">
+        <div class="container mx-auto p-8 ">
+            <div id="container" class="max-w-md mx-auto bg-transparent-900 shadow-lg rounded-lg p-10">
+            <h1 id="heading" class="text-3xl font-bold">Login Form</h1><br>
+    <form id="froms"  action="./login.php" method="POST">
+        <input id="name1"
+        class="w-full bg-white-500 rounded-md px-12 py-2 border border-blue" 
+         type="email" name="email" placeholder="E-mail" required> 
+        <br>
+        <br>
+        <input id="name2"
+        class="w-full bg-white-500 rounded-md px-10 py-2 border border-blue" 
+      type="password" name="password" placeholder="Password" required> 
+        <br>
+        <br>
+        <button 
+        class="w-full bg-blue-500 rounded-md px-10 py-2 border border-blue hover:bg-blue-600" 
+         id="btn">Submit</button>
+         
+         <br>
+         <p id="sign" class="justify-center flex ">Create an account??</p>
+         <a id="sign1" class="justify-center flex font-bold"  href="./sign.html"> SignUp</a>
+    </form>
+    </div>
+    </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
